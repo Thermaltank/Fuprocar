@@ -57,6 +57,8 @@ export const Contenido = () => {
           </li>
         </ol>
         <div className="text-center mt-4">
+        <Link to="/nosotros" style={{ color: "white", textDecoration: "none" }}>
+
           <button
             className="btn rounded-pill p-3 fw-bold"
             style={{
@@ -64,9 +66,9 @@ export const Contenido = () => {
               color: "white",
             }}
           >
-           <Link to="/nosotros" style={{ color: "white", textDecoration: "none" }}>
-            OBTENER MÁS INFORMACIÓN</Link>
+            OBTENER MÁS INFORMACIÓN
           </button>
+          </Link>
         </div>
       </div>
 
@@ -85,6 +87,8 @@ export const Contenido = () => {
           <li>Responsabilidad.</li>
         </ol>
         <div className="text-center mt-4">
+        <Link to="/valores" style={{ color: "white", textDecoration: "none" }}>
+
           <button
             className="btn rounded-pill p-3 fw-bold"
             style={{
@@ -93,9 +97,9 @@ export const Contenido = () => {
               color: "white",
             }}
           >
-            <Link to="/valores" style={{ color: "white", textDecoration: "none" }}>
-            OBTENER MÁS INFORMACIÓN</Link>
+            OBTENER MÁS INFORMACIÓN
           </button>
+          </Link>
         </div>
       </div>
 
@@ -113,6 +117,8 @@ export const Contenido = () => {
           <li>Jurídica y administrativa.</li>
         </ol>
         <div className="text-center mt-4">
+        <Link to="/portafolio" style={{ color: "white", textDecoration: "none" }}>
+
           <button
             className="btn rounded-pill p-3 fw-bold"
             style={{
@@ -120,9 +126,9 @@ export const Contenido = () => {
               color: "white",
             }}
           >
-            <Link to="/portafolio" style={{ color: "white", textDecoration: "none" }}>
-            OBTENER MÁS INFORMACIÓN</Link>
+            OBTENER MÁS INFORMACIÓN
           </button>
+          </Link>
         </div>
       </div>
     </div>
